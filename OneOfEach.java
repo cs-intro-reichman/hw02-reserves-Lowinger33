@@ -10,12 +10,15 @@ public class OneOfEach {
 		String s = "";
 		int i = 0;
 		while (boy == false || girl == false) {
+			if (boy == true || girl == true) {
+				s = s + " ";
+			}
 			double x = Math.random();
 			if (x >= 0.5) {
-				s = (s + "b ");
+				s = (s + "b");
 				boy = true;
 			} else {
-				s = (s + "g ");
+				s = (s + "g");
 				girl = true;
 			}
 			i++;
