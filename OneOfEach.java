@@ -11,7 +11,7 @@ public class OneOfEach {
 		int i = 0;
 		while (boy == false || girl == false) {
 			double x = Math.random();
-			if (x > 0.5) {
+			if (x >= 0.5) {
 				s = (s + "b ");
 				boy = true;
 			} else {
