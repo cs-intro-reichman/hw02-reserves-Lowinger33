@@ -8,7 +8,7 @@ public class Divisors {
 		int i = 1;
 		while (i <= a) {
 			if (a % i == 0) {
-				System.err.println(i);
+				System.out.println(i);
 			}
 			i++;
 		}
